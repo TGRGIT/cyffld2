@@ -6,7 +6,7 @@ import os
 import versioneer
 
 
-include_dirs = ['ffld2', 'ffld2/lib']
+include_dirs = ['ffld2', 'ffld2/lib', '/usr/local/include/eigen3', '/usr/include/libxml2/']
 library_dirs = []
 extra_compile_args = []
 extra_link_args = []
